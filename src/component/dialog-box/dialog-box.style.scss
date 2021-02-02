@@ -1,0 +1,22 @@
+.dialog-box {
+    &-bg {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        z-index: 10;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0c0c0cAA;
+    }
+
+    &-card {
+        width: 400px;
+        padding: 2rem 1rem;
+        background-color: white;
+        color: black;
+    }
+    
+}
